@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Timple App</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_start">Timple Player App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_contacto">Contacto</string>
+    <string name="not_anglo">Anglosajona (A,B,C...)</string>
+    <string name="not_lat">Latina (La,Si,Do...)</string>
+    <string name="title_activity_info">Info</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

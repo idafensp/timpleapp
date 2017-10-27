@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Start" >
+
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:scaleType="fitStart"
+		android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/uppername" />
+    
+
+ 
+     
+    <ImageButton
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:onClick="startPlayer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@null"
+        android:src="@drawable/startbutton" />
+
+    <ImageButton
+        android:id="@+id/tutorialButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:layout_below="@id/startButton"
+        android:onClick="startTutorial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@null"
+        android:src="@drawable/tutorial" />
+
+    <ImageButton
+        android:id="@+id/contactButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startContacto"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tutorialButton"
+        android:layout_marginTop="25dp"
+        android:background="@null"
+        android:src="@drawable/contacto" />
+    
+
+    <ImageButton
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startAjustes"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/contactButton"
+        android:layout_marginTop="25dp"
+        android:background="@null"
+        android:src="@drawable/settings" />
+    
+      <ImageView
+        android:id="@+id/tamarawaLogo"
+        android:scaleType="fitStart"
+		android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/tamarawalogo" />
+
+    
+</RelativeLayout>

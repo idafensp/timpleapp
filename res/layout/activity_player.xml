@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/screen"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@drawable/backtry3"
+    tools:context=".Player" >
+
+    <!-- 
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/cuerda" >
+    </LinearLayout>
+    layout_width="0dp" and layout_weight="1"
+     -->
+
+     <LinearLayout
+    	 android:id="@+id/chordsLayout"
+    	 android:background="@color/black"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+    
+    <TableRow
+        android:id="@+id/tableRowChords"
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+	    
+	   <Button
+           android:id="@+id/bchord1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="loadChord"
+           android:text="D" />
+            
+       <Button
+           android:id="@+id/bchord2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="loadChord"
+           android:text="G" />
+
+       <Button
+           android:id="@+id/bchord3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="loadChord"
+           android:text="E7" />
+       
+	    <Button
+           android:id="@+id/bchord4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="loadChord"
+           android:text="A7" />
+            
+       <Button
+           android:id="@+id/bchord5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="loadChord"
+           android:text="F" />
+
+       <Button
+           android:id="@+id/bchord6"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="loadChord"
+           android:text="C" />
+       
+
+       <Button
+           android:id="@+id/bchord7"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="loadChord"
+           android:text="G7" />
+	    
+    </TableRow>
+    
+    </LinearLayout>
+ 
+        
+        
+    <LinearLayout
+    	 android:id="@+id/stringsLayout"
+        android:layout_width="match_parent"
+	    android:layout_weight="0.8"
+        android:layout_height="fill_parent">
+        
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:id="@+id/string5"
+            android:orientation="vertical"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="fill_parent"
+	        android:background="@drawable/cuerdaplas2" >
+
+            
+	    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/string4"
+            android:orientation="vertical"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="fill_parent"
+	        android:background="@drawable/cuerdaplas2" >
+
+	    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/string3"
+            android:orientation="vertical"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="fill_parent"
+	        android:background="@drawable/cuerdaplas2" >
+	    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/string2"
+            android:orientation="vertical"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="fill_parent"
+	        android:background="@drawable/cuerdaplas2" >
+	    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/string1"
+            android:orientation="vertical"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="fill_parent"
+	        android:background="@drawable/cuerdaplas2" >
+	    </LinearLayout>
+    </TableRow>
+    </LinearLayout>
+    
+
+</LinearLayout>
